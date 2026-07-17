@@ -63,10 +63,6 @@ blockquote footer {
     margin-top: .5rem;
     font-size: .85rem;
 }
-fieldset {
-    padding: 1rem;
-    margin-bottom: 1rem;
-}
 
 button {
     padding: .35rem .75rem;
@@ -89,8 +85,12 @@ input[type="text"] {
     padding: .3rem;
 }
 
-footer {
+body > footer {
     margin-top: 2rem;
     font-size: .8rem;
     text-align: center;
+}
+body > header {
+    max-width: 700px;
+    margin: 0 auto 40px;
 }
